@@ -130,6 +130,7 @@ margin-right: auto;
     var(--linear-color-bold)
   );
   cursor: pointer;
+  transition: opacity 0.4s ease;
 }
 
 .header-toggler-button-wrapper:hover {
@@ -147,6 +148,7 @@ margin-right: auto;
   border: 0;
   border-radius: 50%;
   background-color: var(--accent-color);
+  cursor: pointer;
 }
 
 /* PRICING-SECTION */
@@ -249,6 +251,8 @@ margin-right: auto;
     var(--linear-color-bold)
   );
   cursor: pointer;
+  transition: color 0.4s,
+  border 0.4s,;
 }
 
 .pricing-list-item-button:hover {
